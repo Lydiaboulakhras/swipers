@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="both">
+            <div class="card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Theo_James_March_18%2C_2014_%28cropped%29.jpg/800px-Theo_James_March_18%2C_2014_%28cropped%29.jpg"
+                alt=""
+              />
+              <div class="bio">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+                  officiis a, neque aliquid, excepturi adipisci fugiat ad
+                  aperiam odit velit dicta quasi porro, impedit eos!
+                  Consequuntur sit vel tenetur dignissimos!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="both">
+            <div class="card">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Theo_James_March_18%2C_2014_%28cropped%29.jpg/800px-Theo_James_March_18%2C_2014_%28cropped%29.jpg"
+                alt=""
+              />
+              <div class="bio">
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. At
+                  officiis a, neque aliquid, excepturi adipisci fugiat ad
+                  aperiam odit velit dicta quasi porro, impedit eos!
+                  Consequuntur sit vel tenetur dignissimos!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
